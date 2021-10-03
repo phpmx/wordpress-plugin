@@ -1,0 +1,19 @@
+{
+  "name": "phpmx/wordpress-plugin",
+  "licence": "MIT",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "phpmx\\": "includes/"
+    }
+  },
+  "require-dev": {
+    "wp-coding-standards/wpcs": "^2.3",
+    "squizlabs/php_codesniffer": "^3.5",
+    "phpcompatibility/phpcompatibility-wp": "^2.1"
+  },
+  "scripts": {
+    "phpcs": "vendor/bin/phpcs .",
+    "phpcbf": "vendor/bin/phpcbf ."
+  }
+}
