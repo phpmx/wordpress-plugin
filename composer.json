@@ -2,6 +2,7 @@
   "name": "phpmx/wordpress-plugin",
   "licence": "MIT",
   "require": {},
+  "type": "wordpress-muplugin",
   "autoload": {
     "psr-4": {
       "phpmx\\": "includes/"
