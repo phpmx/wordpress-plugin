@@ -5,7 +5,6 @@ namespace phpmx\CustomPostTypes;
 class BlocksPage {
 	public static function init() {
 		add_action( 'init', fn() => self::register_custom_post_type(), 0 );
-		add_action( 'init', fn() => self::register_fields(), 10 );
 	}
 
 	private static function register_custom_post_type() {
@@ -72,7 +71,4 @@ class BlocksPage {
 		register_post_type( 'blockspage', $args );
 	}
 
-	private static function register_fields() {
-		acf_add_local_field_group( json_decode( file_get_contents( __DIR__ . '/acf/page-blocks.json' ), true ) );
-	}
 }

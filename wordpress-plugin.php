@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name:        PHP Mexico
- * Plugin URI:         https://github.com/phpmx/phpmx-plugin
+ * Plugin URI:         https://github.com/phpmx/wordpress-plugin
  * Description:        Funcionalidad del sitio de PHP Mexico
  * Version:            1.0.0
  * Requires at least:  5.8
@@ -11,9 +11,8 @@
  * License:            MIT
  */
 
-
-if (file_exists(__DIR__ . '/vendor/autoload.php') ) {
-    include_once __DIR__ . '/vendor/autoload.php';
+if ( file_exists( __DIR__ . '/vendor/autoload.php' ) ) {
+	include_once __DIR__ . '/vendor/autoload.php';
 }
 
 use phpmx\Bootstrap;
