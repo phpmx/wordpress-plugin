@@ -12,7 +12,7 @@
                 "required": 0,
                 "conditional_logic": 0,
                 "wrapper": {
-                    "width": "50",
+                    "width": "33",
                     "class": "",
                     "id": ""
                 },
@@ -32,7 +32,7 @@
                 "required": 0,
                 "conditional_logic": 0,
                 "wrapper": {
-                    "width": "50",
+                    "width": "33",
                     "class": "",
                     "id": ""
                 },
@@ -47,6 +47,24 @@
                 "max_height": "",
                 "max_size": "",
                 "mime_types": ""
+            },
+            {
+                "key": "field_615e52f2234f8",
+                "label": "Background Color",
+                "name": "background_color",
+                "type": "color_picker",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "33",
+                    "class": "",
+                    "id": ""
+                },
+                "show_in_graphql": 1,
+                "default_value": "",
+                "enable_opacity": 0,
+                "return_format": "string"
             },
             {
                 "key": "field_615acd71d9d2a",
